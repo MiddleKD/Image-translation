@@ -1,4 +1,5 @@
 # 🎨 Image-translation: AI 기반 이미지 번역
+![git_header](assets/middlek_git_header.png)
 <!-- ![git_header](assets/favorfit_git_header.png) -->
 레이아웃의 일관성을 유지한 채 번역된 이미지를 만듭니다.
 
