@@ -4,8 +4,8 @@ import numpy as np
 import gradio as gr
 
 from inference import load_lama_remover, inferene
-from Easy_OCR.inference import call_easyocr
-from Easy_OCR.inference import inference as ocr_inference
+from easy_ocr.inference import call_easyocr
+from easy_ocr.inference import inference as ocr_inference
 from auto_text_writer import main as auto_text_write
 from dotenv import load_dotenv
 

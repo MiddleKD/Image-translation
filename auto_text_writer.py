@@ -1,6 +1,6 @@
 import numpy as np
 import cv2
-from Easy_OCR.inference import inference as ocr_inference
+from easy_ocr.inference import inference as ocr_inference
 from inference import inferene as remover_inference
 from PIL import Image, ImageDraw, ImageFont
 from claude_api import query_to_claude
