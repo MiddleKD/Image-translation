@@ -40,8 +40,8 @@ def extract_text_color(original_image, mask_image):
     x, y, w, h = get_mask_range(mask_image)
     text_region = original_image[y:y+h, x:x+w]
     text_image = Image.fromarray(text_region)
-    colors = ColorThief(text_image).get_palette(2)
-    return colors[1]
+    colors = ColorThief(text_image).get_palette(3)
+    return colors[2]
 
 def add_text_to_image(image, mask_image, text, font_path, text_color=(255,255,255)):
     
